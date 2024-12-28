@@ -11,4 +11,4 @@ Work portfolio displaying various projects worked on over the years.
   - Theremin
   - Brake-by-Cable
   - Frequency Mixer from JB IS
-  - 
+- Need to add adaptive algos code to the repo as well
