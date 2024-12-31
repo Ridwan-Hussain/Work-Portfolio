@@ -6,7 +6,7 @@ Work portfolio displaying various projects worked on over the years.
 
 - On the readme add the list of projects and a short description
 - Add projects
-  - [x] 16QAM
+  - [ ] 16QAM
   - [ ] ScopeTV
   - [ ] Theremin
   - [ ] Brake-by-Cable
