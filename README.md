@@ -6,10 +6,10 @@ Work portfolio displaying various projects worked on over the years.
 
 - On the readme add the list of projects and a short description
 - Add projects
-  - [ ] 16QAM
-  - [ ] ScopeTV
+  - [x] 16QAM
+  - [x] ScopeTV
   - [ ] Theremin
-  - [ ] Brake-by-Cable
+  - [x] Brake-by-Cable
   - [ ] Frequency Mixer from JB IS
 - Need to add adaptive algos code to the repo as well
   - [ ] PSet 1 - 
