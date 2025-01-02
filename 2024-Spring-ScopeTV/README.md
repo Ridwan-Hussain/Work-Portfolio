@@ -10,7 +10,7 @@ The purpose of was to take the NTSC output from a DVD player and display the vid
 - The color is transmitted using a much high frequency signal, which is known as a Color Burst.
 
 ## Block Diagram
-![Block Diagram]("ScopeTV Block Diagram.png")
+![Block Diagram](ScopeTVBlockDiagram.png)
 
 ### Video Output
 - First the NTSC signal is taken from the DVD player. Signal is split into two paths where one path is used for the Z-axis, and other path is for the X,Y-axis.
