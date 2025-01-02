@@ -11,4 +11,5 @@ The main considerations for the parking brake is making sure the parking brake i
 - Files that include the simulations used to test the ADC range for the brake pressure line for better voltage range for the ESP32.
 
 ## PCB Files
-- Files that include images of the PCB Schematic and Layout, as well as a zip of the final EasyEDA files for the PCB.
+- Files that include images of the PCB Schematic and Layout, as well as a zip of the final EasyEDA files for the PCB. These images are shown below. 
+![Layout 2D](./PCB%20Files/Layout_2D_BBCPCB_v2.0.1_2024-04-30.pdf)
