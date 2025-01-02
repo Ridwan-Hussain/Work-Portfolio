@@ -2,7 +2,8 @@
 The purpose of was to take the NTSC output from a DVD player and display the video on an oscilloscope using the XY mode, and have the audio be output using a speaker. 
 
 ## NTSC Signal
-- ![This image was sourced from Analog Devices' [website](https://www.analog.com/en/resources/technical-articles/basics-of-analog-video.html).](image.png)
+![alt text](NTSC_Signal.png)
+    - This image was sourced from Analog Devices' [website](https://www.analog.com/en/resources/technical-articles/basics-of-analog-video.html).
 - In order to understand the block diagram, it is critical to understad how the NTSC signal is structured. 
 - The dips in the signal is the Horizontal Syncs (HSync), while the actual video is being sent while the signal is high.
     - The Vertical Syncs (VSync) are also sent similarly except the signal dips for much longer than the horizontal sync.
