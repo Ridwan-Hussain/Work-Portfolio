@@ -2,7 +2,7 @@
 The purpose of was to take the NTSC output from a DVD player and display the video on an oscilloscope using the XY mode, and have the audio be output using a speaker. 
 
 ## NTSC Signal
-- ![alt text](NTSC_Signal.png)
+- ![NTSC Signal](NTSC_Signal.png)
     - This image was sourced from Analog Devices' [website](https://www.analog.com/en/resources/technical-articles/basics-of-analog-video.html).
 - In order to understand the block diagram, it is critical to understad how the NTSC signal is structured. 
 - The dips in the signal is the Horizontal Syncs (HSync), while the actual video is being sent while the signal is high.
@@ -10,6 +10,8 @@ The purpose of was to take the NTSC output from a DVD player and display the vid
 - The color is transmitted using a much high frequency signal, which is known as a Color Burst.
 
 ## Block Diagram
+![Block Diagram]("ScopeTV Block Diagram.png")
+
 ### Video Output
 - First the NTSC signal is taken from the DVD player. Signal is split into two paths where one path is used for the Z-axis, and other path is for the X,Y-axis.
 - The Z-axis is generated using an inverted summing amplifier. 
