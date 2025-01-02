@@ -14,25 +14,19 @@ The main considerations for the parking brake is making sure the parking brake i
 - Files that include images of the PCB Schematic and Layout, as well as a zip of the final EasyEDA files for the PCB. The images are displayed below. 
 
 ![Schematic](./PCB%20Files/Schematic_BBCPCB-v2.0.1_2024-04-30.png)
-- Image displaying the final schematic. The different circuit parts can be seen in the different blocks.
-
+Image displaying the final schematic. The different circuit parts can be seen in the different blocks.
 
 ![Layout TOP](./PCB%20Files/Layout_TOP_BBCPCB-v2.0.1_2024-04-30.png)
-- Image displaying the final layout on the top layer. The routing and different planes can be seen here.
-
+Image displaying the final layout on the top layer. The routing and different planes can be seen here.
 
 ![Layout BOT](./PCB%20Files/Layout_BOT_BBCPCB-v2.0.1_2024-04-30.png)
-- Image displaying the final layout on the bottom layer. The routing and different planes can be seen here.
-
+Image displaying the final layout on the bottom layer. The routing and different planes can be seen here.
 
 ![Layout 2D](./PCB%20Files/Layout_2D_BBCPCB-v2.0.1_2024-04-30.png)
-- Image displaying the final 2D layout. The various silkscreen can be more easily be seen here.
-
+Image displaying the final 2D layout. The various silkscreen can be more easily be seen here.
 
 ![Layout 3D TOP](./PCB%20Files/Layout_3D_TOP_BBCPCB-v2.0.1_2024-04-30.png)
-- Image displaying the final 3D layout on the top side. This displays an accurate image of how the final looked.
-
+Image displaying the final 3D layout on the top side. This displays an accurate image of how the final looked.
 
 ![Layout 3D BOT](./PCB%20Files/Layout_3D_BOT_BBCPCB-v2.0.1_2024-04-30.png)
-- Image displaying the final 3D layout on the bottom side. This displays an accurate image of how the final looked.
-
+Image displaying the final 3D layout on the bottom side. This displays an accurate image of how the final looked.
