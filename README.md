@@ -1,19 +1,9 @@
 # Work-Portfolio
-Work portfolio displaying various projects worked on over the years.
+Hello, my name is Ridwan Hussain and I am Electrical Engineer who will be graduating in 2025 from Cooper Union with my Bachelor's. The fields that I'm most interested in is something related to Power Electronics, RF Engineering, DSP, and PCB design and any job that has one or multiple of these factor sound interesting to me. If you'd like to contact me, my email is ridwanhussain115@gmail.com. 
 
----
-# Things to Do:
+This is a work portfolio displaying various projects worked on over the years. Below is a brief description for each of them.
 
-- On the readme add the list of projects and a short description
-- Add projects
-  - [x] 16QAM
-  - [x] ScopeTV
-  - [ ] Theremin
-  - [x] Brake-by-Cable
-  - [ ] Frequency Mixer from JB IS
-- Need to add adaptive algos code to the repo as well
-  - [ ] PSet 1 - 
-  - [ ] PSet 2 - 
-  - [ ] PSet 3 - 
-  - [ ] PSet 4 - 
-  - [ ] PSet 5 - 
+# Project Description
+- Theremin: A project done in my sophomore lab fall semester that displays some basic RF building blocks (mixing, amplitude modulation, amplifier, and amplifier).
+- Frequency Mixer: A project done in my junior lab fall semester year where the output of a Colpitts Oscillator and function generator were mixed using a different MOSFET tail current source on a bread board.
+- 16QAM: 
