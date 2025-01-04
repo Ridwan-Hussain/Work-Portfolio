@@ -25,7 +25,7 @@ Image displaying the final layout on the top layer. The routing and different pl
 
 ![Layout BOT](./PCB%20Files/Layout_BOT_BBCPCB-v2.0.1_2024-04-30.png)
 
-Image displaying the final layout on the bottom layer. The routing and different planes can be seen here.
+Image displaying the final layout on the bottom layer. The routing and different planes can be seen here. 
 
 
 ![Layout 2D](./PCB%20Files/Layout_2D_BBCPCB-v2.0.1_2024-04-30.png)
