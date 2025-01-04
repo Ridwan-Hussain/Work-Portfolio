@@ -6,4 +6,4 @@ This is a work portfolio displaying various projects worked on over the years. B
 # Project Description
 - Theremin: A project done in my sophomore lab fall semester that displays some basic RF building blocks (mixing, amplitude modulation, amplifier, and amplifier).
 - Frequency Mixer: A project done in my junior lab fall semester year where the output of a Colpitts Oscillator and function generator were mixed using a different MOSFET tail current source on a bread board.
-- 16QAM: 
+- 16QAM:    
