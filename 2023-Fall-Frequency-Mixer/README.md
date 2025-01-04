@@ -5,4 +5,4 @@ The final oscilloscope outputs can be seen in the report, as well as images for 
 
 A second experiment was done where the Colpitts Oscillator had a frequency of 4MHz, the function generator had a frequency of 4.6MHz, and the output frequency was 600kHz. Using this setup, a low pass filter was added at the end of the output to make the difference frequency the dominant frequency. 
 
-The LTSpice files are also attached since the simulation files gave a starting point on what the final circuit should look like.
+The LTSpice files are also attached since the simulation files gave a starting point on what the final circuit should look like. In addition, the project description is also attahced.
