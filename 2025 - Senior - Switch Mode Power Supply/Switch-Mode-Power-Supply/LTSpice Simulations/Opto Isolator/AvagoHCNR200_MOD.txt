@@ -1,0 +1,107 @@
+
+
+* .DC IF 0 10M 0.05M
+*.DC DEC IF 1U 10M 30
+*.PROBE
+
+IF 0 1 DC 10M
+VPD1 2 0 DC 0
+VPD2 3 0 DC 0
+XOPTO 0 1 0 2 3 0 CNR200
+
+*----------------------------------------------------------------------------
+* CNR200 Linear Optocoupler SPICE Model
+*               LED Cathode
+*               | LED Anode
+*               | | PD1 Cathode
+*               | | | PD1 Anode
+*               | | | | PD2 Anode
+*               | | | | | PD2 Cathode
+*               | | | | | |
+.SUBCKT CNR200  1 2 3 4 5 6
+
+* LED circuit
+QLED1 8 2 7 QCPL .5
+QLED2 9 2 7 QCPL .5
+VLED 7 1 DC .685
+VPD1 1 8 DC -2
+VPD2 1 9 DC -2
+
+* Input photodiode circuit
+DPD1 4 3 DPHOTO
+FPD1 3 4 POLY(1) VPD1 0 1
+CPD1 4 3 8P
+
+* Output photodiode circuit
+*   Deleting the semicolon from the FPD2 statement below will
+*   increase the dc nonlinearity of the model from 0% to 0.01%
+*   for photodiode currents between 5nA and 50uA.
+DPD2 5 6 DPHOTO
+FPD2 6 5 POLY(1) VPD2 0 1 ;32.5 -450K 3.1G
+CPD2 5 6 8P
+
+* Photodiode model
+.MODEL DPHOTO D(IS=4.5E-12 RS=150 N=1.3 XTI=4 EG=1.11
++  CJO=14P M=1.96 VJ=1.9)
+
+* LED/Optical-coupling transistor model
+.model QCPL NPN(IS=2.214E-19 BF=10m NF=1.010 IKF=11.00m ISE=1.167P
++  NE=1.737 RB=3.469 VAF=100 TF=1.77U CJE=80P)
+
+.ENDS
+*----------------------------------------------------------------------------
+
+.END
+*CNR200 SPICE MODEL TEST CIRCUIT
+
+* .DC IF 0 10M 0.05M
+*.DC DEC IF 1U 10M 30
+*.PROBE
+
+IF 0 1 DC 10M
+VPD1 2 0 DC 0
+VPD2 3 0 DC 0
+XOPTO 0 1 0 2 3 0 CNR200
+
+*----------------------------------------------------------------------------
+* CNR200 Linear Optocoupler SPICE Model
+*               LED Cathode
+*               | LED Anode
+*               | | PD1 Cathode
+*               | | | PD1 Anode
+*               | | | | PD2 Anode
+*               | | | | | PD2 Cathode
+*               | | | | | |
+.SUBCKT CNR200  1 2 3 4 5 6
+
+* LED circuit
+QLED1 8 2 7 QCPL .5
+QLED2 9 2 7 QCPL .5
+VLED 7 1 DC .685
+VPD1 1 8 DC -2
+VPD2 1 9 DC -2
+
+* Input photodiode circuit
+DPD1 4 3 DPHOTO
+FPD1 3 4 VPD1 1
+CPD1 4 3 8P
+
+* Output photodiode circuit
+*   Deleting the semicolon from the FPD2 statement below will
+*   increase the dc nonlinearity of the model from 0% to 0.01%
+*   for photodiode currents between 5nA and 50uA.
+DPD2 5 6 DPHOTO
+FPD2 6 5 POLY(1) VPD2 0 1 32.5 -450K 3.1G
+CPD2 5 6 8P
+
+* Photodiode model
+.MODEL DPHOTO D(IS=4.5E-12 RS=150 N=1.3 XTI=4 EG=1.11
++  CJO=14P M=1.96 VJ=1.9)
+
+* LED/Optical-coupling transistor model
+.model QCPL NPN(IS=2.214E-19 BF=10m NF=1.010 IKF=11.00m ISE=1.167P
++  NE=1.737 RB=3.469 VAF=100 TF=1.77U CJE=80P)
+
+.ENDS
+*----------------------------------------------------------------------------
+
