@@ -1,3 +1,6 @@
 [submodule "Switch-Mode-Power-Supply"]
 	path = "2025 - Spring - SMPS"
 	url = https://github.com/Ridwan-Hussain/Switch-Mode-Power-Supply/
+[submodule "PCBRuler"]
+	path = PCBRuler
+	url = https://github.com/CooperUnion/PCB-Lab/
